@@ -2,8 +2,7 @@
 
 Simple app to show a list of a user´s projects. Powered by the Teamwork API
 
-![Screenshot](imgs/list.png)
-![Screenshot](imgs/detail.png)
+<img src="imgs/list.png" width="250"/><img src="imgs/detail.png" width="300"/>
 
 ### Overall Architecture
 
