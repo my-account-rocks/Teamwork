@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32AB63C6219CC8700005C588 /* ProjectsViewControllerAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AB63C5219CC8700005C588 /* ProjectsViewControllerAssembly.swift */; };
 		52D2E24A1A62179C7D12E031 /* Pods_TeamworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DE21788102CE6E67449681 /* Pods_TeamworkTests.framework */; };
 		B358E572C4B0154F041FBAE7 /* Pods_Teamwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE483319967CEF3B75354017 /* Pods_Teamwork.framework */; };
 		EE1A420221975EC8003709FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE1A420021975EC8003709FA /* Assets.xcassets */; };
@@ -25,7 +26,6 @@
 		EE2760BA2195E419003B1AB1 /* ProjectsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2760B92195E419003B1AB1 /* ProjectsPresenter.swift */; };
 		EE2760BD2195E9B1003B1AB1 /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2760BB2195E9B0003B1AB1 /* ProjectsViewController.swift */; };
 		EE2760BE2195E9B1003B1AB1 /* ProjectsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE2760BC2195E9B1003B1AB1 /* ProjectsViewController.xib */; };
-		EE2760C02195EA0E003B1AB1 /* ProjectsViewControllerAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2760BF2195EA0E003B1AB1 /* ProjectsViewControllerAssembly.swift */; };
 		EE2760C22195F338003B1AB1 /* TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2760C12195F338003B1AB1 /* TestHelpers.swift */; };
 		EE6CE5B0219483C20063F44E /* ProjetsPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6CE5AF219483C20063F44E /* ProjetsPresenterTests.swift */; };
 		EE6CE5BB219483C20063F44E /* TeamworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6CE5BA219483C20063F44E /* TeamworkUITests.swift */; };
@@ -76,6 +76,7 @@
 /* Begin PBXFileReference section */
 		03BCA9C61041E019443D4AA2 /* Pods-TeamworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamworkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeamworkTests/Pods-TeamworkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		24DE21788102CE6E67449681 /* Pods_TeamworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32AB63C5219CC8700005C588 /* ProjectsViewControllerAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsViewControllerAssembly.swift; sourceTree = "<group>"; };
 		6965E317AA1EC54DD9DF2B51 /* Pods-Teamwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teamwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Teamwork/Pods-Teamwork.debug.xcconfig"; sourceTree = "<group>"; };
 		772B3FDA1477F306D8B3AB8D /* Pods-Teamwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teamwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-Teamwork/Pods-Teamwork.release.xcconfig"; sourceTree = "<group>"; };
 		BEACF09145B287BAAF020E42 /* Pods-TeamworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeamworkTests/Pods-TeamworkTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -97,7 +98,6 @@
 		EE2760B92195E419003B1AB1 /* ProjectsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsPresenter.swift; sourceTree = "<group>"; };
 		EE2760BB2195E9B0003B1AB1 /* ProjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
 		EE2760BC2195E9B1003B1AB1 /* ProjectsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProjectsViewController.xib; sourceTree = "<group>"; };
-		EE2760BF2195EA0E003B1AB1 /* ProjectsViewControllerAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProjectsViewControllerAssembly.swift; path = /Users/pedro.cabrera/Documents/Dev/Experiements/Teamwork/Teamwork/Teamwork/App/Assembly/ProjectsViewControllerAssembly.swift; sourceTree = "<absolute>"; };
 		EE2760C12195F338003B1AB1 /* TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelpers.swift; sourceTree = "<group>"; };
 		EE6CE597219483C00063F44E /* Teamwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teamwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE6CE5AB219483C20063F44E /* TeamworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeamworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -372,10 +372,10 @@
 		EE6CE5CB219485F10063F44E /* Assembly */ = {
 			isa = PBXGroup;
 			children = (
+				32AB63C5219CC8700005C588 /* ProjectsViewControllerAssembly.swift */,
 				EE6CE5CE219487040063F44E /* Assembly.swift */,
 				EE27609F2195E1AA003B1AB1 /* ProjectsDataSourceAssembly.swift */,
 				EE2760A12195E21D003B1AB1 /* AccountDataSourceAssembly.swift */,
-				EE2760BF2195EA0E003B1AB1 /* ProjectsViewControllerAssembly.swift */,
 				EE898CBF2198BFE000B62C05 /* ProjectDetailViewControllerAssembly.swift */,
 			);
 			path = Assembly;
@@ -648,9 +648,9 @@
 				EE6CE5CD219486F40063F44E /* AppDelegate.swift in Sources */,
 				EE9E877B219A09F700D24F80 /* LogoView.swift in Sources */,
 				EE6CE5CF219487040063F44E /* Assembly.swift in Sources */,
-				EE2760C02195EA0E003B1AB1 /* ProjectsViewControllerAssembly.swift in Sources */,
 				EE9E8783219A0E8700D24F80 /* DescriptionView.swift in Sources */,
 				EE898CBD2198BBF500B62C05 /* ProjectDetailViewController.swift in Sources */,
+				32AB63C6219CC8700005C588 /* ProjectsViewControllerAssembly.swift in Sources */,
 				EE6CE5D2219487100063F44E /* UIColor+App.swift in Sources */,
 				EE898CB72198B3BD00B62C05 /* ProjectTableViewCell.swift in Sources */,
 				EEC2DDB3219A2738003FDC52 /* PersonCollectionViewCell.swift in Sources */,
