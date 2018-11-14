@@ -1,0 +1,200 @@
+{
+    "STATUS": "OK",
+    "projects": [
+        {
+            "activePages": {
+                "billing": true,
+                "comments": true,
+                "files": true,
+                "links": true,
+                "messages": true,
+                "milestones": true,
+                "notebooks": true,
+                "riskRegister": false,
+                "tasks": true,
+                "time": true
+            },
+            "activeUserIsProjectAdmin": false,
+            "announcement": "",
+            "announcementHTML": "",
+            "company": {
+                "id": 113332,
+                "isOwner": true,
+                "name": "Cat"
+            },
+            "createdOn": "2018-06-12T17:30:44Z",
+            "defaultPrivacy": "open",
+            "defaults": {
+                "privacy": ""
+            },
+            "description": "This is going to be a normal description of an amazing country :D",
+            "directFileUploadsEnabled": true,
+            "endDate": "20180801",
+            "filesAutoNewVersion": false,
+            "harvestTimersEnabled": false,
+            "id": 457090,
+            "integrations": {
+                "microsoftConnectors": {
+                    "enabled": false
+                },
+                "oneDriveBusiness": {
+                    "account": "",
+                    "enabled": false,
+                    "folder": "root",
+                    "folderName": "root"
+                },
+                "sharepoint": {
+                    "account": "",
+                    "enabled": false,
+                    "folder": "root",
+                    "folderName": "root"
+                },
+                "xero": {
+                    "baseCurrency": "",
+                    "connected": false,
+                    "countryCode": "",
+                    "enabled": false,
+                    "organisation": ""
+                }
+            },
+            "isProjectAdmin": true,
+            "lastChangedOn": "2018-08-20T09:10:06Z",
+            "logo": "https://s3.amazonaws.com/TWFiles/349705/projectLogo/tf_929A76DB-AA0C-B885-B716E9094F4683F5.animated-brazil-flag-brazilian-national-banner_h2nf-ru_F0000.png",
+            "name": "Brazil",
+            "notifyEveryone": false,
+            "overviewStartPage": "default",
+            "people": [
+                {
+                    "avatarUrl": "https://s3.amazonaws.com/TWFiles/349705/userAvatar/tf_C21F3016-CD19-C60F-E82B23120C506FEE.Tac_the_Psychotic_Cat.jpg",
+                    "firstName": "Cat",
+                    "id": 230907,
+                    "lastName": "Cat"
+                },
+                {
+                    "avatarUrl": "https://s3.amazonaws.com/TWFiles/349705/userAvatar/tf_60D05E04-FB67-7583-F8AD89B08240F134.181295_551377581579663_1606496645_n.jpg",
+                    "firstName": "Simon",
+                    "id": 278423,
+                    "lastName": "O'Donnell"
+                },
+                {
+                    "avatarUrl": "https://s3.amazonaws.com/TWFiles/349705/userAvatar/twia_4c1367ef2d41f1e590fe3819470ec7a9.png/1fe9b480baf5002dce4d26ec5ba2239f.png",
+                    "firstName": "Garry",
+                    "id": 278407,
+                    "lastName": "McKee"
+                }
+            ],
+            "privacyEnabled": false,
+            "projectOwnerId": 0,
+            "replyByEmailEnabled": true,
+            "showAnnouncement": false,
+            "skipWeekends": false,
+            "starred": false,
+            "startDate": "20140405",
+            "startPage": "projectoverview",
+            "status": "active",
+            "subStatus": "late",
+            "tasksStartPage": "default",
+            "type": "normal"
+        },
+        {
+            "activePages": {
+                "billing": true,
+                "comments": true,
+                "files": true,
+                "links": true,
+                "messages": true,
+                "milestones": true,
+                "notebooks": true,
+                "riskRegister": false,
+                "tasks": true,
+                "time": true
+            },
+            "activeUserIsProjectAdmin": false,
+            "announcement": "",
+            "announcementHTML": "",
+            "category": {
+                "color": null,
+                "id": 26882,
+                "name": "mobile"
+            },
+            "company": {
+                "id": 113332,
+                "isOwner": true,
+                "name": "Cat"
+            },
+            "createdOn": "2018-07-15T13:51:56Z",
+            "defaultPrivacy": "open",
+            "defaults": {
+                "privacy": ""
+            },
+            "description": "The Future Gadget 204, 2nd Edition Ver. 2.31 is a full-fledged time machine, albeit it is still incomplete and, as a result, is only capable of allowing the user to travel backwards in time, as opposed to the time machine developed by SERN, which enables time travel in both directions.",
+            "directFileUploadsEnabled": true,
+            "endDate": "20181016",
+            "filesAutoNewVersion": false,
+            "harvestTimersEnabled": false,
+            "id": 462923,
+            "integrations": {
+                "microsoftConnectors": {
+                    "enabled": false
+                },
+                "oneDriveBusiness": {
+                    "account": "",
+                    "enabled": false,
+                    "folder": "root",
+                    "folderName": "root"
+                },
+                "sharepoint": {
+                    "account": "",
+                    "enabled": false,
+                    "folder": "root",
+                    "folderName": "root"
+                },
+                "xero": {
+                    "baseCurrency": "",
+                    "connected": false,
+                    "countryCode": "",
+                    "enabled": false,
+                    "organisation": ""
+                }
+            },
+            "isProjectAdmin": true,
+            "lastChangedOn": "2018-11-09T23:37:16Z",
+            "logo": "https://s3.amazonaws.com/TWFiles/349705/projectLogo/tf_2E2AD316-DAF2-C47C-BA4D4BCE9184E395.Fg204.jpg",
+            "name": "Time Machine R&D",
+            "notifyEveryone": false,
+            "overviewStartPage": "default",
+            "people": [
+                {
+                    "avatarUrl": "https://s3.amazonaws.com/TWFiles/349705/userAvatar/tf_C21F3016-CD19-C60F-E82B23120C506FEE.Tac_the_Psychotic_Cat.jpg",
+                    "firstName": "Cat",
+                    "id": 230907,
+                    "lastName": "Cat"
+                },
+                {
+                    "avatarUrl": "https://s3.amazonaws.com/TWFiles/349705/userAvatar/tf_60D05E04-FB67-7583-F8AD89B08240F134.181295_551377581579663_1606496645_n.jpg",
+                    "firstName": "Simon",
+                    "id": 278423,
+                    "lastName": "O'Donnell"
+                },
+                {
+                    "avatarUrl": "https://s3.amazonaws.com/TWFiles/349705/userAvatar/twia_4c1367ef2d41f1e590fe3819470ec7a9.png/1fe9b480baf5002dce4d26ec5ba2239f.png",
+                    "firstName": "Garry",
+                    "id": 278407,
+                    "lastName": "McKee"
+                }
+            ],
+            "privacyEnabled": false,
+            "projectOwnerId": 0,
+            "replyByEmailEnabled": true,
+            "showAnnouncement": false,
+            "skipWeekends": false,
+            "starred": true,
+            "startDate": "20180715",
+            "startPage": "projectoverview",
+            "status": "active",
+            "subStatus": "late",
+            "tasksStartPage": "default",
+            "type": "normal"
+        }
+    ]
+}
