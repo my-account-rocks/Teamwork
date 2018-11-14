@@ -2,6 +2,9 @@
 
 Simple app to show a list of a user´s projects. Powered by the Teamwork API
 
+![Screenshot](imgs/list.png)
+![Screenshot](imgs/detail.png)
+
 ### Overall Architecture
 
 The presentation layer is based on MVP. The communication from the presenter to the view (viewcontroller) is through a protocol. There should not be logic in the view, just framework related code. Moving the logic to the presenter increases the testability.
